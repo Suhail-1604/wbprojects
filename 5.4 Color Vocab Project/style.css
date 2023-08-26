@@ -1,0 +1,55 @@
+*{
+    table-layout: auto;
+}
+
+.table-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    text-align: center;
+    font-size: 200%;
+}
+
+td{
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td{
+    background-color: aqua;
+}
+
+h2[class="color-title"]{
+    font-weight: normal;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+#red{
+    color: red;
+}
+
+#blue{
+    color: blue;
+}
+
+#orange{
+    color: orange ;
+}
+
+#green{
+ color: green;
+}
+
+#yellow{
+ color: yellow;
+}
