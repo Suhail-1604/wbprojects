@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO
+1. Make both paragraph elements wrap around the image.
+2. Use Float to move the cat div to the left and the dog div to the right.
+3. Use clear to make the footer go below both the cat and dog div. -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Float</title>
+  <style>
+    div {
+      display: inline-block;
+      width: 40%;
+    }
+
+    img {
+      float: left;
+    }
+
+    p {
+      font-size: 2em;
+    }
+
+    .cat {
+      background-color: aquamarine;
+      float: left;
+    }
+
+    .dog {
+      background-color: coral;
+      float: right;
+    }
+
+    footer {
+      text-align: center;
+      background-color: blueviolet;
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cat">
+    <h2>CatCSS</h2>
+
+    <img src="cat.jpeg" alt="cat in a box" />
+    <p class="first-paragraph">Cats (Felis catus) are domesticated carnivorous mammals with a history of companionship to humans for thousands of
+    years. They have retractable claws, excellent night vision, and unique skeletal features that enable agility and
+    balance. Cats communicate through vocalizations and body language, purring when content and hissing when threatened.
+    Their grooming habits are meticulous and serve to regulate temperature and establish social bonds. Regular veterinary
+    care, nutrition, exercise, and mental stimulation are crucial for their health, with an average lifespan of 12 to 18
+    years. Cats have held cultural significance in various societies, and their playful behaviors and expressions have made
+    them internet sensations in recent years.</p>
+  </div>
+  <div class="dog">
+    <h2>DogCSS</h2>
+    <img src="dog.jpeg" alt="dogs in a box" />
+    <p class="second-paragraph">Dogs (Canis lupus familiaris) are domesticated carnivorous mammals that have been companions to humans for thousands of
+    years. They come in various breeds with different sizes, coat types, and temperaments. Dogs are known for their loyalty,
+    intelligence, and varied skills such as herding, hunting, and service work. They communicate through barking, growling,
+    wagging their tails, and using body language. Grooming, regular exercise, and proper healthcare are essential for their
+    well-being. The average lifespan of a dog varies by breed, ranging from around 10 to 15 years on average. Dogs have a
+    rich cultural significance worldwide and have also become popular internet subjects due to their charming behaviors and
+    interactions with humans.
+.</p>
+  </div>
+
+  <footer>Copyright. This is the footer</footer>
+</body>
+
+</html>
