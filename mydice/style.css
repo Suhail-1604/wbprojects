@@ -1,0 +1,32 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 5px 0 #232931;
+    color: indianred;
+    
+}
+
+.container{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.dice{
+    display: inline-block;
+    align-items: center;
+    font-size: 30px;
+}
+
+body {
+  background-color: #393E46;
+}

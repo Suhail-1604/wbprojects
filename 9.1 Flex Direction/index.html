@@ -14,7 +14,8 @@
       color: white;
       border: 5px solid gold;
       display: inline-flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
 
     /*
@@ -29,8 +30,14 @@ children of the .container class.
     .blue {background-color: #4834d4;}
     .indigo {background-color: #30336b;}
     .purple {background-color: #be2edd;}
-
-    .red, .blue, .green, .yellow, .indigo, .purple, .orange {
+    .black {background-color: black;}
+    .pink {background-color: pink;}
+    .grey {background-color: grey;}
+    .rose {background-color: rebeccapurple;}
+    .gold {background-color: gold;}
+    .sandal {background-color: salmon;}
+    .violet {background-color: violet;}
+    .red, .blue, .green, .yellow, .indigo, .purple, .orange, .black, .pink, .grey, .rose, .gold, .sandal, .violet {
       flex-basis: 100px;
     }
   </style>
@@ -45,6 +52,13 @@ children of the .container class.
     <div class="blue">Blue</div>
     <div class="indigo">Indigo</div>
     <div class="purple">Purple</div>
+    <div class="black">Black</div>
+    <div class="pink">Pink</div>
+    <div class="grey">Grey</div>
+    <div class="rose">Rose</div>
+    <div class="gold">Gold</div>
+    <div class="sandal">Sandal</div>
+    <div class="violet">Violet</div>
   </div>
   
 </body>
