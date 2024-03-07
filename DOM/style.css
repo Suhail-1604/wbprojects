@@ -1,0 +1,9 @@
+.invisible{
+    visibility: hidden;
+}
+
+.huge {
+    color: indigo;
+    font-size: 10rem;
+    font-weight: bold;
+}
